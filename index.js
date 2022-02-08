@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send({msg: "Welcome to Jason's Backend"});
+    res.send({msg: "Welcome to Amaarah's Portfolio Backend"});
 });
 
 app.use("/projects", projectRoutes);
